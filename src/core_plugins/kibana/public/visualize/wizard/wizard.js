@@ -42,6 +42,8 @@ module.controller('VisualizeWizardStep1', function ($scope, $route, kbnUrl, time
     [VisType.CATEGORY.MAP]: 'Maps',
     [VisType.CATEGORY.OTHER]: 'Other',
     [VisType.CATEGORY.TIME]: 'Time Series',
+// suwonchon@gmail.com
+    [VisType.CATEGORY.BIGB]: 'Bigb',
   };
 
   const addToDashMode = $route.current.params[DashboardConstants.ADD_VISUALIZATION_TO_DASHBOARD_MODE_PARAM];

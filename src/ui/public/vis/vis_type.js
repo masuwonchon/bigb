@@ -34,13 +34,14 @@ export function VisVisTypeProvider(Private) {
       throw new Error('not implemented');
     }
   }
-
+// suwonchon@gmail.com
   VisType.CATEGORY = {
     BASIC: 'basic',
     DATA: 'data',
     MAP: 'map',
     OTHER: 'other',
     TIME: 'time',
+    BIGB: 'bigb',
   };
 
   return VisType;

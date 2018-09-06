@@ -14,7 +14,7 @@ require('plugins/timelion/directives/docs');
 
 require('plugins/timelion/app.less');
 
-document.title = 'Timelion - Kibana';
+document.title = 'Timelion - Bigb'; // suwonchon@gmail.com
 
 require('ui/chrome');
 
